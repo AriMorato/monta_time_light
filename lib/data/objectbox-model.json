@@ -1,0 +1,187 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6635061260520744805",
+      "lastPropertyId": "5:6321915253894653608",
+      "name": "Jogador",
+      "properties": [
+        {
+          "id": "1:6058966117288522769",
+          "name": "jogadorId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2821254005385297007",
+          "name": "apelido",
+          "type": 9
+        },
+        {
+          "id": "3:4616270333672585207",
+          "name": "guiId",
+          "type": 9
+        },
+        {
+          "id": "4:4560755560416514643",
+          "name": "avatar",
+          "type": 9
+        },
+        {
+          "id": "5:6321915253894653608",
+          "name": "pontos",
+          "type": 8
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:5269259397314635988",
+          "name": "posicoes",
+          "targetId": "3:4440809913784401753"
+        },
+        {
+          "id": "2:3331839775150026611",
+          "name": "partidas",
+          "targetId": "2:3687787850312574576"
+        }
+      ]
+    },
+    {
+      "id": "2:3687787850312574576",
+      "lastPropertyId": "9:5695697342386997087",
+      "name": "Partida",
+      "properties": [
+        {
+          "id": "1:608893597999478217",
+          "name": "partidaId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1189522106316693877",
+          "name": "guiId",
+          "type": 9
+        },
+        {
+          "id": "3:6923060731559820287",
+          "name": "titulo",
+          "type": 9
+        },
+        {
+          "id": "4:3216483015010125255",
+          "name": "localDaPartida",
+          "type": 9
+        },
+        {
+          "id": "5:2968297253505547841",
+          "name": "diaDaSemnaDeJogo",
+          "type": 9
+        },
+        {
+          "id": "6:3246362577861428694",
+          "name": "horarioInicialDaPartida",
+          "type": 6
+        },
+        {
+          "id": "7:3300723525927021910",
+          "name": "horarioFinalDaPartida",
+          "type": 6
+        },
+        {
+          "id": "8:7614328353987496884",
+          "name": "independente",
+          "type": 1
+        },
+        {
+          "id": "9:5695697342386997087",
+          "name": "grupoId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "2:5545734479780644400",
+          "relationTarget": "Grupo"
+        }
+      ],
+      "relations": [
+        {
+          "id": "3:327057312538482259",
+          "name": "jogadores",
+          "targetId": "1:6635061260520744805"
+        }
+      ]
+    },
+    {
+      "id": "3:4440809913784401753",
+      "lastPropertyId": "4:4032194742078318578",
+      "name": "Posicao",
+      "properties": [
+        {
+          "id": "1:5394668930609406323",
+          "name": "posicaoId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6444523911800284882",
+          "name": "guiId",
+          "type": 9
+        },
+        {
+          "id": "3:4643772480545210971",
+          "name": "titulo",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "5:3677145455818237398",
+          "name": "jogadores",
+          "targetId": "1:6635061260520744805"
+        }
+      ]
+    },
+    {
+      "id": "4:2647648868665330001",
+      "lastPropertyId": "2:9213507257952179587",
+      "name": "Grupo",
+      "properties": [
+        {
+          "id": "1:7899742609164430781",
+          "name": "grupoId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:9213507257952179587",
+          "name": "nome",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "6:4847911244046512895",
+          "name": "partidas",
+          "targetId": "2:3687787850312574576"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "4:2647648868665330001",
+  "lastIndexId": "2:5545734479780644400",
+  "lastRelationId": "6:4847911244046512895",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    9212600122259486975
+  ],
+  "retiredPropertyUids": [
+    4032194742078318578
+  ],
+  "retiredRelationUids": [
+    4175284568821574108
+  ],
+  "version": 1
+}

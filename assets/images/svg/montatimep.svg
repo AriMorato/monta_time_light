@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="320"
+   height="320"
+   viewBox="0 0 84.666665 84.666668"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="montatime_p.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.2623761"
+     inkscape:cx="107.73335"
+     inkscape:cy="140.21178"
+     inkscape:window-width="1366"
+     inkscape:window-height="720"
+     inkscape:window-x="1442"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="-65.749023"
+       y="-49.113731"
+       width="56.243141"
+       height="30.894121"
+       id="rect3" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text3"
+       style="font-weight:bold;font-size:10.6667px;line-height:7.27095px;font-family:'Istok Web';-inkscape-font-specification:'Istok Web Bold';white-space:pre;shape-inside:url(#rect3);fill:#000000;stroke:#ffffff;stroke-width:3;stroke-linecap:round" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:10.5833px;line-height:7.2141px;font-family:'Istok Web';-inkscape-font-specification:'Istok Web Bold';white-space:pre;inline-size:185.062;fill:#4d4d4d;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
+       x="18.844969"
+       y="42.38002"
+       id="text5"
+       transform="matrix(1.2647134,0,0,1.2647134,-19.219431,27.022393)"><tspan
+         x="18.844969"
+         y="42.38002"
+         id="tspan3"><tspan
+           style="fill:#000000"
+           id="tspan2">Monta Time</tspan></tspan></text>
+    <ellipse
+       style="fill:#000000;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
+       id="ellipse6"
+       cx="42.700695"
+       cy="33.31955"
+       ry="30.080961"
+       rx="28.597221" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.39499;stroke-linecap:round;stroke-dasharray:none"
+       id="ellipse7"
+       cx="19.599098"
+       cy="34.026653"
+       rx="8.6831646"
+       ry="8.9932775" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.39499;stroke-linecap:round;stroke-dasharray:none"
+       id="ellipse5"
+       cx="65.802895"
+       cy="33.441902"
+       rx="8.6831646"
+       ry="8.9932775" />
+    <path
+       style="fill:#000000;stroke:#ffffff;stroke-width:0.950479;stroke-linecap:round"
+       d="M 42.700998,20.267229 V 46.371886"
+       id="path7" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:10.5833px;line-height:7.2141px;font-family:'Istok Web';-inkscape-font-specification:'Istok Web Bold';white-space:pre;inline-size:185.062;display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
+       x="18.844969"
+       y="42.38002"
+       id="text5-1"
+       transform="matrix(0.92531118,0,0,0.92531118,13.625288,20.988424)"><tspan
+         x="18.844969"
+         y="42.38002"
+         id="tspan4">MTM</tspan></text>
+  </g>
+</svg>
